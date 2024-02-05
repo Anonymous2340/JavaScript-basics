@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    color: black;
+    width: 560px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px 10px;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.container:hover {
+    box-shadow: inset 2px 1px 10px rgb(230, 228, 228), 5px 5px 10px grey;;
+}
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.container .paragraph {
+    background-color: rgb(233, 218, 199);
+    padding: 20px;
+}
+
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container .buttons {
+    padding: 10px;
+    width: 150px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.container .buttons .btn {
+    background-color: rgb(6, 47, 88);
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+.container .buttons .btn:hover {
+    cursor: pointer;
+    background-color: rgb(7, 62, 117);
+    color: black;
+}
+
+.container2 {
+    color: black;
+    width: 560px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px 10px;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    background-color: rgb(3, 32, 66);
+    font-size: 20px;
+}
+
+#text {
+    text-align: center;
+}

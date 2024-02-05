@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jayralddeniega">
+    <meta http-equiv="refresh" content="1000">
+    <link rel="stylesheet" type="text/css" href="Jsbasics.css">
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <div class="container">
+        <h1>This is my first try of JavaScript : )</h1>
+        <div class="paragraph">
+            <p id="demo">This text will change...</p>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn" type="button" onclick="buttonText()">Next</button>
+            <button class="btn" type="button" onclick="buttonTextChange()">Back</button>
+        </div>
+    </div>
+    <h2 id="text">The code</h2>
+    <div class="container2">
+        <span id="codes">
+            <span style="color: brown;"><span style="color: lightblue;"><</span>!DOCTYPE <span style="color: red;">html</span><span style="color: lightblue;">></span></span><br>
+            &nbsp;<span style="color: brown;"><span style="color: lightblue;"><</span>html<span style="color: lightblue;">></span></span><br>
+            &nbsp;&nbsp;<span style="color: brown;"><span style="color: lightblue;"><</span>body<span style="color: lightblue;">></span></span><br>
+            &nbsp;&nbsp;&nbsp;<span style="color: red;"><span style="color: lightblue;"><</span><span style="color: brown;">div</span> class<span style="color: lightblue;">="container"></span></span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: lightblue;"><</span><span style="color: brown;">h1</span><span style="color: lightblue;">></span><span>This is my first try of JavaScript :)</span><span style="color: lightblue;">< /</span><span style="color: brown;">h1</span><span style="color: lightblue;">></span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: lightblue;"><</span><span style="color: brown;">div<span style="color: red;"> class</span></span><span style="color: lightblue;">="paragraph"></span><span style="color: lightblue;"><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;"><span style="color: lightblue;"><</span><span style="color: brown;">p </span>id</span><span style="color: lightblue;">="demo"></span><span style="color: black;">This text will change...</span><span style="color: lightblue;">< /</span><span style="color: brown;">p</span><span style="color: lightblue;">></span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: lightblue;"><</span><span style="color: brown;">div</span><span style="color: lightblue;">></span>
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: lightblue;"><</span><span style="color: brown;">div <span style="color: red;">class</span></span><span style="color: lightblue;">="buttons"></span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;"><span style="color: lightblue;"><</span>button <span style="color: red;">class<span style="color: lightblue;">="btn"</span><span style="color: red;"> type</span><span style="color: lightblue;">="button"<span style="color: yellow;"> onclick="buttonText"</span></span></span><span style="color: lightblue;">></span></span><span style="color: black;">Next</span><span style="color: red;"><span style="color: lightblue;">< /</span>button<span style="color: lightblue;">></span></span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;"><span style="color: lightblue;"><</span>button <span style="color: red;">class<span style="color: lightblue;">="btn"</span><span style="color: red;"> type</span><span style="color: lightblue;">="button"<span style="color: yellow;"> onclick="buttonTextChange"</span></span></span><span style="color: lightblue;">></span></span><span style="color: black;">Back</span><span style="color: red;"><span style="color: lightblue;">< /</span>button<span style="color: lightblue;">></span></span><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: lightblue;">< /</span><span style="color: brown;">div</span><span style="color: lightblue;">></span><br>
+            &nbsp;&nbsp;&nbsp;<span style="color: brown;"><span style="color: lightblue;">< /</span>div<span style="color: lightblue;"></span></span><br>
+            &nbsp;&nbsp;<span style="color: brown;"><span style="color: lightblue;">< /</span>body<span style="color: lightblue;">></span></span><br>
+            &nbsp;<span style="color: brown;"><span style="color: lightblue;"><</span>script<span style="color: lightblue;">></span></span><br>
+            &nbsp;&nbsp;&nbsp;<span style="color: violet;">function </span><span style="color: yellow;">buttonText( ) {
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">document.</span><span style="color: green;">getElementById</span>('demo')<span style="color: red;">.innerHTML</span> = 'Now it\'s changed' ;<br
+            </span><br>
+            &nbsp;&nbsp;&nbsp;<span style="color: violet;">function </span><span style="color: yellow;">buttonTextChange( ) {
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">document.</span><span style="color: green;">getElementById</span>('demo')<span style="color: red;">.innerHTML</span> = 'This text will change...' ;<br
+            </span>
+            &nbsp;<span style="color: brown;"><span style="color: lightblue;">< /</span>script<span style="color: lightblue;">></span></span><br>
+            &nbsp;<span style="color: brown;"><span style="color: lightblue;">< /</span>html<span style="color: lightblue;">></span></span><br>
+</body>
+<script>
+    function buttonText() {
+        document.getElementById('demo').innerHTML = 'Now it\'s changed';
+    }
+
+    function buttonTextChange() {
+        document.getElementById('demo').innerHTML = 'This text will change...';
+    }
+</script>
+</html>
+        </span>
+    </div>
+</body>
+<script>
+    function buttonText() {
+        document.getElementById('demo').innerHTML = 'Now it\'s changed';
+    }
+
+    function buttonTextChange() {
+        document.getElementById('demo').innerHTML = 'This text will change...';
+    }
+</script>
+</html>
